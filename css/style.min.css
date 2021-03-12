@@ -46,9 +46,10 @@ html * {
 
 body {
     font-size: 100%;
-    font-family: courier-std, monospace;
+    font-family: 'Oswald', sans-serif;
     font-style: normal;
-    font-weight: 400
+    font-weight: 400;
+    background-color: #fafafa;
 }
 
 a {
@@ -69,8 +70,7 @@ em {
 }
 
 .setup-container {
-    width: 90%;
-    max-width: 1170px;
+    width: 100%;
     margin: 0 auto
 }
 
@@ -94,7 +94,7 @@ header {
 }
 
 header h3 a {
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Oswald', sans-serif;
     color: #333;
     padding: 0.3rem 1rem
 }
@@ -128,7 +128,7 @@ header h3 a {
 }
 
 header h1 {
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-size: 1.875rem;
     color: #333;
@@ -144,10 +144,12 @@ header h1 {
 .setup-product-wrapper {
     display: inline-block;
     position: relative;
-    margin: 5rem auto;
+    margin: 3rem auto;
     width: 100%;
-    max-width: 1200px;
     background: #777;
+    -webkit-box-shadow: 0 10px 20px #777;
+    -moz-box-shadow: 0 10px 20px #777;
+    box-shadow: 0 10px 20px #777
 }
 
 .setup-product-wrapper>img {
@@ -618,7 +620,7 @@ header h1 {
 
 @media only screen and (min-width: 600px) {
     header {
-        margin: 5rem 5rem 0 5rem
+        margin: 3rem 3rem 0 3rem
     }
     header h1 {
         font-size: 2rem
